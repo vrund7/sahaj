@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="{% static 'js/jquery-1.11.0.min.js' %}"></script>
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+                <script src="{% static 'js/wow.min.js' %}"></script>
+                <script>
+                 new WOW().init();
+                </script>
+
+
+        <script src="{% static 'js/responsiveslides.min.js' %}"></script>
+         <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+              // Slideshow 1
+              $("#slider1").responsiveSlides({
+                 auto: true,
+                 nav: true,
+                 speed: 500,
+                 namespace: "callbacks",
+              });
+            });
+          </script>
+

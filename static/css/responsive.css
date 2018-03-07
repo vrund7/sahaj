@@ -1,0 +1,664 @@
+/**    
+* 
+* ---------------------------------------------------------------------------
+*
+* Template Name: Believed - Nonprofit HTML5 Responsive Template
+* Template URL:	 http://lovesome.biz/believed
+* Author : urosd
+* Version : 1.0 
+* 
+* --------------------------------------------------------------------------- 
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu {
+        text-align: left;
+        margin-right: 0;
+        margin-top: 12px;
+    }
+    .main-menu ul li a {
+        font-size: 12px;
+        padding: 10px 9px;
+    }
+    .donate-box {
+        right: 0;
+        margin-top: 12px;
+    }
+    .about-details {
+        margin: 0;
+    }
+    .about-img {
+        margin: 24px 0;
+    }
+    .causes-info h2 a {
+        font-size: 15px;
+    }
+    .title > h2 {
+        font-size: 35px;
+    }
+    .condition-info h2 {
+        font-size: 22px;
+    }
+    .condition-info h2::before {
+        width: 28%;
+    }
+    .events-details {
+        padding: 0;
+    }
+    .blog-slider .owl-nav div {
+        left: 45%;
+        bottom: -80px !important;
+        top: auto;
+    }
+    .blog-slider div.owl-next {
+        left: auto;
+        right: 45%;
+    }
+    ul.list li a img {
+        width: 64px;
+        height: 55px;
+    }
+    .call-to-main {
+        padding: 5px 0;
+    }
+    .call-to-action h2 {
+        font-size: 14px;
+    }
+    .call-to-action h2 span {
+        font-size: 19px;
+    }
+    .subscribe-box {
+        text-align: center;
+    }
+    .subscribe-box > input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .subscribe-box > button {
+        margin-top: 10px;
+    }
+    .related-causus-img {
+        margin: 30px 0 0;
+    }
+    .volunteers-img {
+        margin: 60px 0;
+    }
+    .news-content a.donate-btn {
+        margin-right: 5px;
+    }
+    .address {
+        top: 15%;
+        height: 330px;
+        padding: 40px 60px;
+    }
+    .right span,
+    .arrival-time span {
+        width: 100%;
+        display: block;
+    }
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------   */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 13px;
+    }
+    .title > h2 {
+        font-size: 26px;
+    }
+    .top-header-info {
+        text-align: center;
+    }
+    .header-right {
+        margin-top: 10px;
+    }
+    .donate-box {
+        left: 50%;
+        top: -39px;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        right: unset;
+    }
+    .main-menu {
+        display: none;
+    }
+    .responsive-menu-wrap {
+        display: block;
+        margin-top: -16px;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        width: 100%;
+    }
+    .responsive-menu-wrap .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav {
+        background: #1a1a1a none repeat scroll 0 0;
+        padding: 10px 0;
+        position: relative;
+        right: -16px;
+        top: 31px;
+        z-index: 999;
+    }
+    .slicknav_nav a.active,
+    .slicknav_nav a:hover,
+    .slicknav_nav .slicknav_row:hover {
+        background-color: #546E7A !important;
+        border-radius: 0;
+        color: #fff !important;
+    }
+    a.slicknav_item a.menu-active {
+        padding: 5px 10px;
+    }
+    .slicknav_btn {
+        background-color: transparent;
+        text-shadow: none !important;
+    }
+    .slicknav_icon-bar {
+        height: 3px !important;
+        background-color: #777 !important;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        box-shadow: none;
+    }
+    ul.slicknav_nav li a i.fa {
+        display: none;
+    }
+    .slicknav_nav a {
+        text-transform: uppercase;
+    }
+    .slicknav_btn {
+        margin: 0;
+    }
+    .slider-info h2 {
+        font-size: 25px;
+    }
+    .slider-info h3 {
+        font-size: 35px;
+    }
+    .slider-wraper .owl-nav div {
+        display: none;
+    }
+    .mobile-auto {
+        width: 50%;
+        margin: 0 auto !important;
+    }
+    .ex-mg .causes-info {
+        margin-bottom: 30px;
+    }
+    .donate-info h2 {
+        font-size: 24px;
+    }
+    .about-img {
+        padding: 88px 0;
+    }
+    .service-content {
+        margin-bottom: 60px;
+    }
+    .about-content {
+        margin-bottom: 40px;
+    }
+    .condition-info h2 {
+        font-size: 22px;
+    }
+    .progress-info h3 {
+        font-size: 20px;
+    }
+    .events-date {
+        padding: 32px 0;
+    }
+    .events-date span {
+        font-size: 16px;
+    }
+    .events-details h3 {
+        font-size: 14px;
+    }
+    .events-details {
+        padding: 0;
+    }
+    .project-count {
+        margin-bottom: 30px;
+    }
+    .single-gallery {
+        width: 50%;
+    }
+    .blog-slider .owl-nav div {
+        left: 43%;
+        bottom: -80px !important;
+        top: auto;
+    }
+    .blog-slider div.owl-next {
+        left: auto;
+        right: 45%;
+    }
+    .call-to-action,
+    .donate-call {
+        text-align: center;
+    }
+    .call-to-action h2 {
+        font-size: 14px;
+    }
+    .call-to-action h2 span {
+        font-size: 18px;
+    }
+    .donate-call a.donate-btn {
+        margin: 20px 0 0;
+    }
+    .footer-widgets {
+        margin-bottom: 30px;
+    }
+    ul.list li a img {
+        width: 99px;
+        height: 79px;
+    }
+    .widget-title h2::before {
+        top: -20px;
+        height: 80px;
+    }
+    .post-info {
+        padding: 70px 0px 70px 20px;
+    }
+    .page-count {
+        margin-bottom: 50px;
+    }
+    .address {
+        top: 15%;
+        height: 330px;
+        padding: 40px 60px;
+    }
+    .related-causes-info:last-child {
+        margin-bottom: 50px;
+    }
+    .vol-in {
+        display: block;
+    }
+    .volunteers-ins {
+        width: 100%;
+        border-bottom: 2px solid #546E7A;
+        border-right: 0;
+    }
+    .volunteers-img {
+        padding: 145px 0;
+    }
+    .comment-form {
+        margin-bottom: 50px;
+    }
+    .sidebar-widget:first-child {
+        margin-top: 30px;
+    }
+    .single-events h2,
+    .events-slider h2 {
+        font-size: 18px;
+    }
+}
+
+/*		Mobile Layout: 320px.
+------------------------------------------------------------   */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    .top-header-info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .top-header-area a,
+    .seprator {
+        display: block;
+    }
+    .donate-box {
+        display: none;
+    }
+    .fixed-menu {
+        padding: 0;
+    }
+    .header-right a,
+    .header-right .seprator {
+        display: inline !important;
+    }
+    .believed-logo {
+        position: relative;
+        z-index: 99;
+        width: 55%;
+    }
+    .main-menu {
+        display: none;
+    }
+    .responsive-menu-wrap {
+        display: block;
+        margin-top: -16px;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        width: 100%;
+    }
+    .responsive-menu-wrap .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav {
+        background: #1a1a1a none repeat scroll 0 0;
+        padding: 10px 0;
+        position: relative;
+        right: -16px;
+        top: 25px;
+        z-index: 999;
+    }
+    .slicknav_nav a.active,
+    .slicknav_nav a:hover,
+    .slicknav_nav .slicknav_row:hover {
+        background-color: #546E7A !important;
+        border-radius: 0;
+        color: #fff !important;
+    }
+    a.slicknav_item a.menu-active {
+        padding: 5px 10px;
+    }
+    .slicknav_btn {
+        background-color: transparent;
+        text-shadow: none !important;
+    }
+    .slicknav_icon-bar {
+        height: 3px !important;
+        background-color: #777 !important;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        box-shadow: none;
+    }
+    ul.slicknav_nav li a i.fa {
+        display: none;
+    }
+    .slicknav_nav a {
+        text-transform: uppercase;
+    }
+    .slicknav_btn {
+        margin: 0;
+    }
+    .slider-info h2 {
+        font-size: 18px;
+    }
+    .slider-info h3 {
+        font-size: 22px;
+    }
+    .donate-btn {
+        padding: 7px 10px;
+    }
+    .slider-wraper .owl-nav {
+        display: none;
+    }
+    .slider-info p {
+        width: auto;
+    }
+    .title > h2 {
+        font-size: 24px;
+    }
+    .about-details {
+        margin: 30px 0 0;
+    }
+    .progress-info h3 {
+        font-size: 14PX;
+    }
+    .about-content {
+        margin-bottom: 30px;
+    }
+    .donate-info H2,
+    .condition-info h2 {
+        font-size: 18px;
+    }
+    .barfiller {
+        width: 100%;
+    }
+    .barfiller .tip {
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .progress-info a {
+        float: left;
+        margin: 20px 0 0;
+    }
+    .condition-info h2::before {
+        display: none;
+    }
+    .condition-info span {
+        display: block;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .ex-mg .causes-info {
+        margin-bottom: 30px;
+    }
+    .checkbox-inline,
+    .radio-inline {
+        display: block;
+        margin: 0 0 10px !important;
+    }
+    .project-count {
+        margin-bottom: 30px;
+    }
+    .project-count span {
+        font-size: 26px;
+    }
+    .project-count h3 {
+        font-size: 16px;
+    }
+    .iso-nav ul li {
+        width: 100%;
+        line-height: normal;
+    }
+    .single-gallery {
+        width: 100%;
+    }
+    .events-details {
+        width: 68%;
+        padding: 0;
+    }
+    .events-details h3 {
+        font-size: 14px;
+    }
+    .events-date span {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .donate-form {
+        padding: 50px 18px;
+    }
+    .news-content {
+        padding: 20px 10px;
+    }
+    .blog-comment-wraper {
+        padding: 30px 10px;
+    }
+    .blog-slider .owl-nav div {
+        left: 35%;
+        top: auto;
+    }
+    .blog-slider div.owl-next {
+        left: auto;
+        right: 35%;
+    }
+    .post-meta ul {
+        margin-top: 0;
+    }
+    .call-to-action h2 {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .call-to-action h2 span {
+        font-size: 18px;
+    }
+    .donate-call {
+        text-align: center;
+        margin-top: 30px;
+    }
+    ul.list li a img {
+        width: 90px;
+    }
+    .subscribe-box {
+        display: flex;
+    }
+    .subscribe-box input {
+        width: 73%;
+    }
+    #scrollUp {
+        bottom: 70px;
+        right: 15px;
+    }
+    .footer-widgets {
+        margin-bottom: 50px;
+    }
+    .m-unset {
+        margin: 0;
+    }
+    .footer-widgets > h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .form-group img {
+        float: unset;
+        display: block;
+    }
+    .related-causus-img,
+    .related-causus-img img {
+        width: 100%;
+    }
+    .related-causus-details {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .vol-in {
+        display: block;
+    }
+    .volunteers-ins {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 2px solid #546E7A;
+    }
+    .page-count {
+        margin-bottom: 50px;
+    }
+    .address {
+        position: unset;
+        width: 100%;
+        height: auto;
+        padding: 80px 26px;
+    }
+    .causes-left .col-sm-6 {
+        padding: 0;
+    }
+    .widget-title h2 {
+        font-size: 15px;
+    }
+    .related-causes-info:last-child {
+        margin-bottom: 50px;
+    }
+    .iso-content .col-sm-6 {
+        padding: 0;
+    }
+    ul.breadcrumb li a,
+    .breadcrumb > .active,
+    .breadcrumb > li + li::before {
+        font-size: 12px;
+    }
+    .single-blog-content h2,
+    h3.comment-heading {
+        font-size: 16px;
+    }
+    .blog-get-info span {
+        font-size: 12px;
+    }
+    blockquote p {
+        font-size: 14px;
+    }
+    .comment-content span {
+        font-size: 13px;
+    }
+    .reply-commnet-content {
+        padding-left: 30px;
+    }
+    .comment-input-form {
+        width: 100%;
+        padding: 0;
+    }
+    .comment-form {
+        margin-bottom: 50px;
+    }
+    .blog-area .col-sm-6 {
+        padding: 0;
+    }
+    .volunteers-img img {
+        margin-bottom: 30px;
+    }
+    .volunteers-info span,
+    .volunteers-info i.fa {
+        font-size: 14px;
+    }
+    .single-events h2,
+    .events-slider h2 {
+        font-size: 18px;
+    }
+    .events-author a h4 {
+        font-size: 14px;
+    }
+}
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .blog-slider .owl-nav div {
+        left: 40%;
+    }
+    .blog-slider div.owl-next {
+        left: auto;
+        right: 40%;
+    }
+    .events-details {
+        padding: 15px 0;
+    }
+    .events-date {
+        width: 18%;
+    }
+    .events-details {
+        width: 75%;
+    }
+    .post-date-info {
+        width: 18% !important;
+    }
+    .post-meta ul {
+        margin-top: 20px;
+    }
+    .subscribe-box input {
+        width: 80%;
+    }
+    .subscribe-box .donate-btn {
+        width: 20%;
+    }
+    ul.list li a img {
+        width: 105px;
+    }
+    ul.list li a img {
+        width: 143px;
+    }
+}
